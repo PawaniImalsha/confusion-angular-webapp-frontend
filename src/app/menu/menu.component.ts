@@ -54,7 +54,7 @@ export class MenuComponent implements OnInit {
 
   dishes : Dish[] = DISHES;
 
-  selectedDish: Dish = DISHES[0]; //get the first element of DISHES array
+  selectedDish: Dish = DISHES[0]; //get the first element of dish array
 
   constructor() { }
 
